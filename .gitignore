@@ -1,0 +1,25 @@
+# Datasets (muito grandes para versionar)
+datasets/
+
+# Modelos treinados (muito grandes)
+models/
+runs/
+*.pt
+
+# Videos
+videos/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Resultados gerados (podem ser recriados)
+resultados/visualizacoes/
+resultados/logs/
+
+# Sistema
+.DS_Store
+Thumbs.db
